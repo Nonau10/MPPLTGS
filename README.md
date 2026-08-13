@@ -1,5 +1,5 @@
 # MPPLTGS
-Un extracteur qui vous permet de transférer les scores de votre ligue MPP vers un google sheets
+Un extracteur qui vous permet de transférer les scores de votre ligue MPP vers un google sheets. Ainsi vous pourrez traité ces donné et faire des graphiques si ça vous chante.
 
 
 Il vous faudra un dossier vide quand meme (ça cré bcp 2 fichier)
