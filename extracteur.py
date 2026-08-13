@@ -82,7 +82,6 @@ for user_id, pseudo in liste_utilisateurs:
     ]]
 
     # On cherche uniquement les fichiers contenant l'ID de ce joueur
-    # (Le joker * permet de trouver le fichier peu importe où se trouve l'ID dans le nom)
     fichiers_joueur = glob.glob(f"*{user_id}*.json")
     
     if not fichiers_joueur:
