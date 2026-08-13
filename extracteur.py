@@ -54,7 +54,7 @@ for id_current in liste_utilisateurs:
     for date_current in date:
         get_data(date_current, id_current)
 
-# Le dictionnaire de traduction des clubs (Je l'ai raccourci pour l'exemple, garde le tien en entier)
+# Le dictionnaire de traduction des clubs 
 dictionnaire_clubs = dict(club_id)
 
 def traduire_club(club_id):
