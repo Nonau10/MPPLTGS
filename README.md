@@ -62,12 +62,10 @@ Connecte-toi sur la version web de Mon Petit Prono depuis ton ordinateur.
 
 Ouvre les Outils de développement de ton navigateur (Touche F12 ou Ctrl+Maj+I) et va dans l'onglet Réseau (Network).
 
-Recharge la page où s'affichent les points des joueurs de ta ligue.
+Recharge la page
 
-Filtre les requêtes par Fetch/XHR. Tu devrais y voir passer une requête contenant les données de ta ligue (l'URL contiendra probablement un identifiant de ligue).
+Filtre les requêtes par Fetch/XHR. Tu devrais y voir passer une requête contenant des données.
 
 Clique sur cette requête et récupère :
 
-L'URL exacte.
-
-Les en-têtes (Headers) : cherche particulièrement un champ Authorization (qui contient ton token de session) ou le cookie de session qui prouve que tu es bien connecté.
+Les en-têtes (Headers) : cherche particulièrement un champ Authorization (qui contient ton token de session). Tu copies cette chaine de caractère bien longue et tu la gardes pour plus tard dans ton sac à dos.
