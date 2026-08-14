@@ -8,7 +8,7 @@ import gspread
 import requests
 
 code = input("Entrez le code d'invitation de votre ligue MPP : ")
-token = input("Entrez votre token d'authentification MPP : ")
+token = input("Entrez votre token d'authentification MPP (Sans \"Bearer\"): ")
 name = input("Entrez le nom exact de votre Google Sheet : ")
 
 
